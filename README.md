@@ -9,4 +9,4 @@ The sample files show the possible [bumping semantics supported](https://github.
   * [minor](pipeline-bump-minor.yml): Bump the minor version number, e.g. 0.1.0 -> 0.2.0.
   * [patch](pipeline-bump-patch.yml): Bump the patch version number, e.g. 0.0.1 -> 0.0.2.
   * [final](pipeline-bump-final.yml): Promote the version to a final version, e.g. 1.0.0-rc.1 -> 1.0.0.
-* [pre](pipeline-bump-pre.yml): Optional. When bumping, bump to a prerelease (e.g. rc or alpha), or bump an existing prerelease.
+* [pre](pipeline-bump-prerelease.yml): Optional. When bumping, bump to a prerelease (e.g. rc or alpha), or bump an existing prerelease.
