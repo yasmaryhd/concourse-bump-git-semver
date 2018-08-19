@@ -3,6 +3,9 @@ Sample concourse pipelines that show bumping the semver version via a git file.
 
 The samples use the concourse [semver resource type](https://github.com/concourse/semver-resource#readme) and its [`git`](https://github.com/concourse/semver-resource#git-driver) driver.
 
+The git driver will look for a specified branch in a repo and a file. For these samples, I have a version branch with a file named version.
+
+## Samples
 The sample files show the possible [bumping semantics supported](https://github.com/concourse/semver-resource#version-bumping-semantics):
 * bump: Optional. Bump the version number semantically. The value must be one of:
   * [major](pipeline-bump-major.yml): Bump the major version number, e.g. 1.0.0 -> 2.0.0.
